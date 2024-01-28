@@ -1,5 +1,6 @@
 run:
-	go run ./cmd/server/main.go
+	go run main.go
 
 watch:
-	CompileDaemon -command="go run ./cmd/server/main.go" -directory="./cmd/server"
+	CompileDaemon -command="./unite-backend"
+
